@@ -40,7 +40,7 @@ h3 {
   font-size: 40px;
   background: red;
   text-align: right;
-  margin: 10px;
+  margin: 0px;
   border:solid black;
 }
  h4 {
@@ -53,6 +53,9 @@ h3 {
 }
 .row{
     width:100%;
+  margin-left:0px;
+  margin-right:0px;
+  
 }
 /*desktop pc view*/
 @media (min-width:992px){
@@ -185,12 +188,12 @@ h3 {
   }
 }
 *{ box-sizing:border-box;
-  margin:10px;
+  margin:0px;
   padding:5;
 }
 section{
   border:5px solid black;
-  margin:0px;
+  margin:5px;
  background-color:grey;
  padding-right:5px;
  padding-left:5px;
